@@ -1,0 +1,12 @@
+{
+	"parent": "block/orientable",
+	"textures": {
+		"up": "endermail:block/package_side_3",
+		"down": "endermail:block/package_side_1",
+		"north": "endermail:block/package_side_1",
+		"south": "endermail:block/package_side_1",
+		"east": "endermail:block/package_side_2",
+		"west": "endermail:block/package_side_2",
+		"front": "endermail:block/package_side_1"
+	}
+}

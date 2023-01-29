@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "endermail",
+  "version": "${version}",
+
+  "name": "Ender Mail",
+  "description": "Employ Endermen to deliver packages anywhere in the world.",
+  "authors": [
+    "ChaosTheDude",
+    "ZestyBlaze"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA 4.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.zestyblaze.endermail.EnderMail"
+    ],
+    "client": [
+      "dev.zestyblaze.endermail.EnderMailClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "accessWidener": "endermail.accessWidener"
+}
